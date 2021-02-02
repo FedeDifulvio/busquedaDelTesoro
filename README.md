@@ -28,4 +28,4 @@ Tabla de records. Contiene el registro de todas las victorias. ( la aplicación 
 
 Podio de records. Se muestran los tres primeros juegos que menos clicks necesitaron para finalizar. 
 
-![image](https://user-images.githubusercontent.com/71615110/106621915-cd890f00-6551-11eb-8abc-799b086c3013.png)
+![image](https://user-images.githubusercontent.com/71615110/106622226-248ee400-6552-11eb-9e4d-aafa05ec86bb.png)
