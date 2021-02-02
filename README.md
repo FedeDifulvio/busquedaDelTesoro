@@ -24,7 +24,7 @@ Cartel de victoria. Permite acceder a dos tablas: una contiene todos los registr
 
 Tabla de records. Contiene el registro de todas las victorias. ( la aplicación no tiene la capacidad de almacenar los datos, al refrescar la página se pierden) 
 
-![image](https://user-images.githubusercontent.com/71615110/106621642-83a02900-6551-11eb-980a-8509b506bd98.png) 
+![image](https://user-images.githubusercontent.com/71615110/106622421-5011ce80-6552-11eb-87e6-debeeea77ad1.png)
 
 Podio de records. Se muestran los tres primeros juegos que menos clicks necesitaron para finalizar. 
 
