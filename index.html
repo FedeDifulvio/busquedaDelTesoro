@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Búsqueda del Tesoro</title> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body> 
+    <div id ="Juego"> 
+        <h1 id ="Title"> ¡Encuentra el Tesoro!  </h1>  
+        <h2><span id= "cuentaRegresiva"></span> </h2>
+         <img  id="mapa" src="img/MapaTesoro.png" alt="ImagenMapa" width="400" height="400">
+    <div> 
+        <p id="distancia"> </p>   
+        <img id="imagenEmoji" src= ""> 
+     </div>
+    </div>
+    
+    <div class="card" id ="cartelGanador">
+        <div class="card-header">
+          <h1> <img src="img/tesoro.png"  width="40" height="40" alt=""> ¡Has encontrado el Tesoro! <img src="img/tesoro.png"  width="40" height="40" alt=""></h1>
+        </div>
+        <div id="cardBody">
+            <h5 id= "cardTitle"></h5> 
+          <a href="#" class="btn btn-primary" onclick= iniciarJuego() > Volver a Jugar</a> 
+          <a href="#" class="btn btn-primary" onclick= mostrarRecords() > Records </a> 
+          <a href="#" class="btn btn-primary" onclick= mostrarPodioRecords() > Podio Records </a> 
+        </div>
+      </div> 
+      <div class="card" id ="Presentacion">
+        <div class="card-header">
+          <h1>  ¡Bienvenido a la búsqueda del Tesoro! </h1>
+        </div>
+        <div id="cardBody">
+            <h5 id= "cardTitle"></h5> 
+          <a href="#" class="btn btn-primary" onclick= iniciarJuego() > Jugar</a>  
+        </div>
+      </div> 
+      <div class="card" id ="lostGame">
+        <div class="card-header">
+          <h1>  ¡Tiempo Agotado! :( </h1> 
+        </div>
+        <div id="cardBody">
+            <h5 id= "cardTitle"></h5> 
+          <a href="#" class="btn btn-primary" onclick= iniciarJuego()> volver a jugar </a>  
+        </div>
+      </div> 
+      <div id="tablaRecords">  
+        <table  id= "tabla" border="1" > 
+          <tr>
+            <th> Número de Juego </th>
+            <th> Cantidad Clicks </th>
+          </tr>
+        </table> 
+      </div>  
+      <div id="tablaPodio"> 
+        <table id="Podio"> 
+        </table>
+      </div>
+      <button id="botonRecord" onclick="mostrarCartelGanador(0)"> <strong> Volver </strong></button>
+     
+    
+    <script src="js/gameFunctions.js"></script> 
+    <script src="js/game.js"></script> 
+    <script src="js/Records.js"></script> 
+</body>
+</html> 

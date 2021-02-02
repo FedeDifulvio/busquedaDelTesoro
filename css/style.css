@@ -1,0 +1,109 @@
+body{
+    background: linear-gradient(150deg,#090979, #34495e,#00d4ff);  
+    background-size: 400% 300%; 
+    animation: BgGradient 5s ease infinite ; 
+    color: #fff; 
+    height: 100vh;
+   padding: 0; 
+    margin: 0; 
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column; 
+}  
+
+@keyframes BgGradient{
+    0%{ background-position: 0% 50%; } 
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
+} 
+
+#Title{
+    text-align: center; 
+} 
+
+#cuentaRegresiva{
+    text-align: center; 
+}
+
+#Juego{ 
+    z-index: 0;
+    visibility:hidden;     
+    text-align: center; 
+} 
+
+#cartelGanador{
+
+    color: black;  
+    position: absolute; 
+    display: flex;
+    justify-content: center;
+    visibility: hidden;    
+    text-align: center; 
+}  
+
+#lostGame{
+    color: black;  
+    position: absolute; 
+    display: flex;
+    justify-content: center;
+    visibility: hidden;    
+    text-align: center; 
+
+}
+
+#Presentacion{ 
+
+    color: black;  
+    position: absolute; 
+    display: flex;
+    justify-content: center;
+    visibility: visible;     
+    text-align: center; 
+}
+
+
+#tablaRecords{ 
+
+    color: black; 
+    position: absolute; 
+    display: flex; 
+    visibility: hidden;    
+ 
+
+}   
+
+#tablaPodio{ 
+
+    color: black; 
+    background: white; 
+    position: absolute; 
+    display: flex; 
+    visibility: hidden;    
+
+} 
+
+#tabla {
+    background: white; 
+} 
+#Podio{ 
+    background: white; 
+}
+
+table, th, td{ 
+    text-align: center; 
+    width: 400px;
+    height:30px; 
+    border: 1px solid black; 
+    border-collapse: collapse ; 
+} 
+
+#botonRecord{
+     
+    margin-top:250px;
+   color: black;
+   background-color:cornsilk;
+   font-family:monospace;
+   visibility: hidden; 
+}  
+
